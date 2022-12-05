@@ -1,0 +1,44 @@
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ff6060;
+}
+
+.error{
+    font-size: 288px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.errorQuote{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.linkBackHome{
+    color: #ff6060;
+    padding: 100px;
+    font-size: 18px;
+}
+
+/******************/
+/* version mobile */
+/******************/
+
+@media (max-width: 767px){
+    .error{
+        font-size: 96px;
+        margin: 120px 0px -20px 0px;
+    }
+
+    .errorQuote{
+        font-size: 18px;
+    }
+    .linkBackHome{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+}

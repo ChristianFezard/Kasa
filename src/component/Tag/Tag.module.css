@@ -1,0 +1,20 @@
+.tag{
+    background: #ff6060;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width: 130px;
+}
+
+/******************/
+/* version mobile */
+/******************/
+
+@media (max-width: 767px){
+    .tag{
+        font-size: 10px;
+    }
+}

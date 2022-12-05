@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.home, .about{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ff6060;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/********************/
+/* version tablette */
+/********************/
+
+@media (min-width: 768px) and (max-width: 1100px){
+    .header{
+        padding: 20px 50px;
+    }
+}
+
+/******************/
+/* version mobile */
+/******************/
+
+@media (max-width: 767px){
+    .header{
+        padding: 20px 20px;
+    }
+
+    img{
+        width: 170px;
+    }
+
+    .home, .about{
+        font-size: 12px;
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+  }
+
+

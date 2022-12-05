@@ -1,0 +1,25 @@
+.cardContainer{
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+
+/******************/
+/* version mobile */
+/******************/
+
+@media (max-width: 767px){
+    .cardContainer{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        gap: 20px;
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+}
+

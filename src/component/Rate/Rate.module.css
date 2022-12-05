@@ -1,0 +1,15 @@
+.star{
+    margin-right: 10px;
+}
+
+/******************/
+/* version mobile */
+/******************/
+
+@media (max-width: 767px){
+    .star{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}
