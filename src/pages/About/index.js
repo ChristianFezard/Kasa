@@ -7,7 +7,7 @@ import aboutData from "../../data/aboutData.json"
 
 const About = () => {
     return (
-        <>
+        <div className={styles.about}>
             <Header />
             <main>
                 <Banner />
@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
 

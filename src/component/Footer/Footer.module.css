@@ -2,6 +2,7 @@
     padding: 40px;
     background-color: black;
     color: white;
+    height: 209px;
 }
 
 .logoFooter{
@@ -17,3 +18,13 @@
     align-items: center;
     font-size: larger;
 }
+
+/******************/
+/* version mobile */
+/******************/
+
+/*@media (max-width: 767px){
+    .footer{
+        margin-top: 105px;
+    }
+}*/
